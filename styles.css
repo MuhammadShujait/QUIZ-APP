@@ -1,0 +1,120 @@
+body{
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.field2{
+    width: 80%;
+    height: 700px;
+    border: 1px outset snow;
+    margin: 20px auto;
+    
+    border-radius: 40px 80px;
+    padding: 20px;
+    
+}
+.leg2{
+    margin: 0px auto;
+    border: 1px solid snow;
+    border-radius: 10px;
+    height: 80px;
+    width: 80%;
+    
+    padding: 10px;
+    
+}
+.ans2{
+    margin: 30px auto;
+    border: 1px solid snow;
+    border-radius: 10px;
+    height: 240px;
+    width: 80%;
+    
+    padding: 10px;
+}
+.head2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.ans3{
+    padding: 5px;
+    width: 20%;
+}
+.ans3:hover{
+    border: 1px outset snow;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px wheat;
+}
+.h22{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+.time{
+    position: fixed;
+    height: 50px;
+    width: 150px;
+    z-index: 10;
+    background-color: rgb(66, 67, 85);
+    border: 2px outset snow;
+    border-radius: 15px;
+    box-shadow: 0 0 10px wheat;
+    
+}
+.tp1{
+    display: inline-block;
+    margin: auto auto;
+}
+.tp2{
+    display: inline-block;
+    margin: auto auto;
+}
+.tp0{
+    display: inline-block;
+    margin: auto auto;
+}
+.intime{
+    text-align: center;
+    margin-top: 15px;
+}
+.dh2{
+    margin: 5px auto;
+    text-align: center;
+}
+.sfield{
+    width: 140px;
+    height: 70px;
+    border: 1px outset snow;
+    border-radius: 15px;
+    box-shadow: 0 0 10px wheat;
+    margin: 50px auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.remark{
+    font-size: 50px;
+    text-align: center;
+}
+.core{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 0px;
+}
+.H3{
+    text-align: center;
+}
+
+
+
+

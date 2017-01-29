@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/download.png">
+</head>
+<body>
+    
+    <div class="time" id="time">
+        <div class="intime">
+        <p class="tp1" id="min"></p>
+        <p class="tp0">:</p>
+        <p class="tp2" id="sec"></p>
+        </div>
+    </div>
+    <h1 class="head2">GENERAL KNOWLEDGE QUIZ</h1>
+    <h3 class="H3">  YOU HAVE ONLY 3 MINUTES  </h3>
+
+    <div id="scfield" class="hidden">
+        <h2 class="dh2">YOUR SCORE</h2>
+        <div id="score" class="sfield">
+            
+        </div>
+        <p class="remark" id="rmak">
+         
+        </p>
+        
+    </div>
+    
+    <div id="q1" class="field2" id="q1">
+        <h2 class="h22">Question 1</h2>
+        <div class="leg2">
+        According to population which is the largest province of Pakistan?    
+        </div>
+        <div class="ans2">
+            
+        <p class="ans3" onclick="hideQ1Div()">
+         Sindh   
+        </p>
+        <p class="ans3" onclick="corans1()"> Punjab </p>
+        <p class="ans3" onclick="hideQ1Div()">N.W.F.P</p>
+        <p class="ans3" onclick="hideQ1Div()">Balochistan</p>
+            
+        </div>
+        
+    </div>
+   
+   <div id="q2" class="field2">
+       <h2 class="h22">Question 2</h2>
+        <div class="leg2">
+        According to volume of land which is the largest province of Pakistan?    
+        </div>
+        <div class="ans2">
+        <p class="ans3" onclick="hideQ2Div()">
+         Sindh   
+        </p>
+        <p class="ans3" onclick="hideQ2Div()">Punjab</p>
+        <p class="ans3" onclick="hideQ2Div()">N.W.F.P</p>
+        <p class="ans3" onclick="corans2()">Balochistan</p>
+            
+        </div>
+        
+    </div>
+    
+    <div id="q3" class="field2">
+        <h2 class="h22">Question 3</h2>
+        <div class="leg2">
+        Which Ocean is at the South of Pakistan?    
+        </div>
+        <div class="ans2">
+        <p class="ans3" onclick="corans3()">
+         Indian Ocean   
+        </p>
+        <p class="ans3" onclick="hideQ3Div()">Pacific Ocean</p>
+        <p class="ans3" onclick="hideQ3Div()">Atlantic Ocean</p>
+        <p class="ans3" onclick="hideQ3Div()">Arctic Ocean</p>
+            
+        </div>
+        
+    </div>
+    
+    <div id="q4" class="field2">
+        <h2 class="h22">Question 4</h2>
+        <div class="leg2">
+        According to population which is the largest City of Pakistan?    
+        </div>
+        <div class="ans2">
+        <p class="ans3" onclick="hideQ4Div()">
+         Lahore   
+        </p>
+        <p class="ans3" onclick="corans4()">Karachi</p>
+        <p class="ans3" onclick="hideQ4Div()">Islamabad</p>
+        <p class="ans3" onclick="hideQ4Div()">Quetta</p>
+            
+        </div>
+        
+    </div>
+    
+    <div id="q5" class="field2">
+        <h2 class="h22">Question 5</h2>
+        <div class="leg2">
+        Which is the capital of Pakistan?    
+        </div>
+        <div class="ans2">
+        <p class="ans3" onclick="hideQ5Div()">
+            Lahore
+        </p>
+        <p class="ans3" onclick="hideQ5Div()">Karachi</p>
+        <p class="ans3" onclick="corans5()">Islamabad</p>
+        <p class="ans3" onclick="hideQ5Div()">Quetta</p>
+            
+        </div>
+        
+    </div>
+   
+   
+   <script src="script.js"></script>
+</body>
+</html>
